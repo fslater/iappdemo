@@ -9,7 +9,7 @@
             "value": "GEN_UNIQUE"
         }, 
         "dnsLabel": {
-            "value": "REQUIRED"
+            "value": "iappdemo-1nic-http-1"
         }, 
         "instanceName": {
             "value": "f5vm01"
@@ -37,6 +37,9 @@
         }, 
         "restrictedSrcAddress": {
             "value": "*"
+        }, 
+        "httpVip": {
+            "value": "10.10.10.10"
         }, 
         "tagValues": {
             "value": {
