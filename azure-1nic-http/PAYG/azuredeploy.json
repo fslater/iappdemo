@@ -148,6 +148,13 @@
             }, 
             "type": "string"
         }, 
+        "httpVip": {
+            "defaultValue": "10.10.10.10", 
+            "metadata": {
+                "description": "The client-facing virtual IP address of the HTTP service."
+            }, 
+            "type": "string"
+        }, 
         "tagValues": {
             "defaultValue": {
                 "application": "APP", 
